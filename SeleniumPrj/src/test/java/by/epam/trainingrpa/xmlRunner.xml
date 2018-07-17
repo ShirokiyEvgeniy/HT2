@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="MainSuite" parallel="false">
+    <test name="checkJenkins">
+        <classes>
+            <class name="by.epam.trainingrpa.TestClass">
+                <methods>
+                    <include name="checkEnableAutoRefresh"/>
+                    <include name="checkFirst"/>
+                    <include name="checkButtonsColor"/>
+                    <include name="checkWarningMessage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
